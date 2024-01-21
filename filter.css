@@ -1,0 +1,67 @@
+body{
+    font-family: "Incosolata", sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 40px;
+}
+
+.leftMenu{
+flex: 1;
+}
+
+.search{
+    padding:10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+h1{
+    font-size: 30px ;
+    color: black;
+    font-weight: 300;
+}
+
+.categories{    /* The display of the categories is vertical with a gap between them of 10px */
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.cat{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 350;
+    padding: 10px;
+}
+
+.main{
+flex: 4;      /* The main menu is 4x bigger than the left menu */
+}
+
+.products{
+display: flex;
+flex-wrap: wrap;  /*To prevent images overflowing on the web page */
+gap: 10px; 
+}
+
+.product{
+    width: 250px;
+    display: flex;
+   flex-direction: column;
+   gap: 30px;
+   align-items: center;
+
+}
+
+.name{
+    font-weight: 400px;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+    object-fit: contain;   /* The image size of each product will be contained within the width and height*/
+}

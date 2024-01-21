@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./filter.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Incosolata">
+    <title>Product Filter Project</title>
+</head>
+<body> 
+    <h1> <img src="TRADING.jpg" alt="" width="400" height="400"></h1>
+    <p style="font-family:Italics">Everything you need for your home! </p>       <!--This message will be displayed on the live server.-->
+
+    <div class="container">     <!--The contaniner tag will be to create a section on our web page-->
+
+    <div class="leftMenu">     <!--Left side of the screen will have these options-->
+        <input type="text" placeholder= "Search..." class="search">
+        <h1>Categories</h1>
+        <div class="categories">
+          
+        </div>
+        <h1>Price Range</h1>
+        <div class="price">
+            <input type="range" class="priceRange"> 
+            <span class="priceValue">$40</span>
+        </div>
+    </div>
+
+    <div class="main">          <!--Main content of the screen-->
+       <div class="products">
+    
+       </div>
+    </div>
+</div> 
+
+<script src="./filter.js"> </script>     <!--Importing our js file-->
+
+</body>
+
+</html>
